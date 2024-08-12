@@ -33,7 +33,7 @@ This is the code repository for the paper titled *AEVisionLab: Manipulating In-v
 
 The software uses the libraries from PF_RING, libjpeg-turbo, and ffmpeg. The bridging and attack software of AEVisionLab is modified from PF_RING/userland/examples/pfbridge.c. The installation of the libraries is described in the following sections.
 
-- [Installation of PF_RING & PF_RING/userland/examples Library](#Installation-of-PF_RING-&-PF_RING/userland/examples-Library)
+- [Installation of PF_RING](#Installation-of-PF_RING)
 
 - [Installation of video simulation and libjpeg-turbo Library](#Installation-of-video-simulation-and-libjpeg-turbo-Library)
 
@@ -73,7 +73,7 @@ The software uses the libraries from PF_RING, libjpeg-turbo, and ffmpeg. The bri
 | [djpeg](./djpeg) | Offline | This is an executable program that is extracted from the libjpeg-turbo library. It decompresses a 12-bit jfif file *{jfif-file}* to a raw 12-bit pnm file *{pnm-file}*. Usage: *./djpeg {jfif-file} > {pnm-file}* |
 | [cjpeg](./cjpeg) | Offline | This is an executable program that is extracted from the libjpeg-turbo library. It compresses a raw 12-bit pnm file *{pnm-file}* to a 12-bit jfif file *{jfif-file}*. Usage: *./cjpeg -precision 12 -restart 1 -qtables {tables-file} {pnm-file} > {jfif-file}* (-qtables is optional for specified quantization tables *{tables-file}*) |
 
-## Installation of PF_RING & PF_RING/userland/examples Library
+## Installation of PF_RING
 
 PF_RING can be downloaded in source format from GIT at https://github.com/ntop/PF_RING/
 
