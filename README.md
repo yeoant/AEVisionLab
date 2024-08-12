@@ -113,14 +113,13 @@ Compile userland/examples folder is to use for PF_RING applications:
 ```
 
 This directory contains:
-```
-kernel/						Kernel related patches
-userland/					User space code
-userland/lib/				User space library used to manipulate PF_RING
-userland/libpcap-XXX-ring/	Libpcap enhanced with PF_RING support
-userland/examples/			P(acket)count application (use it for your tests)
-userland/snort/				Snort DAQ module for using snort over PF_RING
-```
+- kernel/						          Kernel related patches
+- userland/					          User space code
+- userland/lib/				        User space library used to manipulate PF_RING
+- userland/libpcap-XXX-ring/	Libpcap enhanced with PF_RING support
+- userland/examples/			    P(acket) count application (use it for your tests)
+- userland/snort/				      Snort DAQ module for using snort over PF_RING
+
 ## Installation of video simulation and libjpeg-turbo Library
 
 Install opencv, numpy and cmake libraries: 
