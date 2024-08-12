@@ -17,13 +17,13 @@ This is the code repository for the paper titled *AEVisionLab: Manipulating In-v
 
 ## Testing Setup
 
-<p> The software component is designed with several key features. The testing setup depends on the operation of the test platform. </p>
+<p> The software is designed for message sniffing, injection, fuzzing, and launching attacks. The testing setup depends on the operation of the test platform. </p>
 
 <p align="center">
   <img src="testbed-overview.png"  width="800">
 </p>
 
-| Operation | Interface | Setup |
+| Operation | Interface | Testing Setup |
 | :-------- | :---------- | :---------- |
 | Sniffing & Logging | Capture Module | a) Capture Ethernet messages without disrupting the car’s normal operation and storing them in an appropriate format for subsequent inspection. |
 | Interception, Injection & Modification | Bridging | b) Intercept or inject (modified) messages into targeted AE links through the workstation bidirectionally for testing and analysis at arbitrary intervals. |
