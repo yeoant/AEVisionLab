@@ -31,7 +31,7 @@ This is the code repository for the paper titled *AEVisionLab: Manipulating In-v
 
 ## Workstation Software
 
-The software uses the libraries from PF_RING, libjpeg-turbo, and ffmpeg. The bridging and attack software of AEVisionLab is modified from PF_RING/userland/examples/pfbridge.c. The installation of the libraries is described in the following sections.
+<p align="justify"> The software uses the libraries from PF_RING, libjpeg-turbo, and ffmpeg. The bridging and attack software of AEVisionLab is modified from PF_RING/userland/examples/pfbridge.c. The installation of the libraries is described in the following sections.</p>
 
 - [Installation of PF_RING](#Installation-of-PF_RING)
 
