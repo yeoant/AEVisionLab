@@ -2,12 +2,7 @@
   <img src="AEVisionLab_logo_beta.png" width="400">
 </p>
 
-# AEVisionLab Test Platform
-
-This is the code repository for the paper titled *AEVisionLab: Manipulating In-vehicle Ethernet Networks with All-round Vision.* We are working in cleaning up the code and will make both the code and all experimental data available by 14 Aug 2024. 
-
----
-# Below is *Work In Progress*
+# AEVisionLab Test Platform - *Work In Progress*
 
 <p align="justify"> This is the code repository for the paper titled <i>AEVisionLab: Manipulating In-vehicle Ethernet Networks with All-round Vision.</i> AEVisionLab is a comprehensive test platform for Automotive Ethernet (AE) networks using commercial off-the-shelf (COTS) electronic control units (ECUs), that allow manipulation of messages over a realistic All-round Vision IVN,  targeted for security testing of AE protocols. The communication interfaces intercept Automotive Ethernet (AE) links between ECUs and send the intercepted messages to a workstation. Six AE links are monitored, with the capture module configured for 100Base-T1 sniffing. All messages from these links are monitored through the output port GB-B and captured by the workstation. </p>
 
