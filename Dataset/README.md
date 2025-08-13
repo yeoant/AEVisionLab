@@ -13,4 +13,4 @@ is {sec} of the original file. The video stream takes up the bulk of the file si
 | 20230608_allLinks_Attk0x3544HijackTrim.pcapng | Attack AE messages without video stream : SomeIP - Hijack BDC service |
 | 20230608_allLinks_Attk0x3544Hijack-1Trim.pcapng | Attack AE messages without video stream : SomeIP - Hijack BDC service |
 | 20230619_allLinks_Attk0x3531Hijack117Trim.pcapng | Attack AE messages without video stream : SomeIP - Hijack TSRVC service |
-| latency_test_ifc6n8-2s.pcapng | Bridged AE messages for 2s with video stream of the front camera |
+| latency_test_ifc5-8-2s.pcapng | Bridged AE messages for 2s with video stream of the front camera |
