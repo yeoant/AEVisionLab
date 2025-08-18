@@ -2,7 +2,7 @@
   <img src="AEVisionLab_logo_beta.png" width="400">
 </p>
 
-# AEVisionLab Test Platform - *Work In Progress*
+# AEVisionLab Test Platform
 
 <p align="justify"> This is the code repository for the paper titled <i>AEVisionLab: Manipulating In-vehicle Ethernet Networks with All-round Vision.</i> AEVisionLab is a comprehensive test platform for Automotive Ethernet (AE) networks using commercial off-the-shelf (COTS) electronic control units (ECUs), that allow manipulation of messages over a realistic All-round Vision IVN,  targeted for security testing of AE protocols. The communication interfaces intercept Automotive Ethernet (AE) links between ECUs and send the intercepted messages to a workstation. Six AE links are monitored, with the capture module configured for 100Base-T1 sniffing. All messages from these links are monitored through the output port GB-B and captured by the workstation. </p>
 
@@ -23,6 +23,10 @@
 | Sniffing & Logging | Capture Module | a) Capture Ethernet messages without disrupting the car’s normal operation and storing them in an appropriate format for subsequent inspection. |
 | Interception, Injection & Modification | Bridging | b) Intercept or inject (modified) messages into targeted AE links through the workstation bidirectionally for testing and analysis at arbitrary intervals. |
 | Fuzzing & Attacks | Bridging | c) Facilitate message fuzzing (e.g., modification). Likewise, message interception, modification, and injection can launch different targeted attacks. |
+
+## Dataset
+
+The datasets in this research can be obtained from the [Dataset repository folder](https://github.com/yeoant/AEVisionLab/tree/main/Dataset).
 
 ## Workstation Software
 
@@ -138,3 +142,4 @@ To install FFmpeg:
    sudo apt update
    sudo apt install ffmpeg
 ```
+
