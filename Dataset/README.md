@@ -23,8 +23,8 @@ The accompanying python tools can facilitate smooth usage of our datasets:
 
 | Tool | Description | Usage |
 | :-------- | :-------- |:--------|
-| [pcap_videolinkV1.py](./pcap_videolinkV1.py) | View the video stream extracted from an AE link on the screen and extract the individual video frames to a local folder, *./jfif* . | *python3 pcap_videolinkV1.py --pcap <pcap filename> --link <link_ID>*, e.g. *python3 pcap_videolinkV1.py --pcap 20230517_allLinks.pcapng  --link 6* | 
-| [pcap_ProInfoV1.py](./pcap_ProInfoV1.py) | Extracts and decodes protocol information used in an AE link. Such information is stored in a text file attributed to each protocol. The text files are saved in a local folder, *./ProInfo* . | *python3 pcap_ProInfoV1.py --pcap <pcap filename> --link <link_ID>*, e.g. *python3 pcap_ProInfoV1.py --pcap 20230517_allLinks.pcapng  --link 5* |
+| [pcap_videolinkV1.py](./pcap_videolinkV1.py) | View the video stream extracted from an AE link on the screen and extract the individual video frames to a local folder, *./jfif* . | *python3 pcap_videolinkV1.py --pcap <pcap_filename> --link <link_ID>*, e.g. *python3 pcap_videolinkV1.py --pcap 20230517_allLinks.pcapng  --link 6* | 
+| [pcap_ProInfoV1.py](./pcap_ProInfoV1.py) | Extracts and decodes protocol information used in an AE link. Such information is stored in a text file attributed to each protocol. The text files are saved in a local folder, *./ProInfo* . | *python3 pcap_ProInfoV1.py --pcap <pcap_filename> --link <link_ID>*, e.g. *python3 pcap_ProInfoV1.py --pcap 20230517_allLinks.pcapng  --link 5* |
 
 The extracted video frames can be displayed using the two python programs, [read_jfifV1.py](../read_jfifV1.py) and [read_jfif_videoV1.py](../read_jfif_videoV1.py).
 
